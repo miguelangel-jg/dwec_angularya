@@ -8,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dwec_angularya';
+
+  nombre = "Gitano";
+  edad = 19;
+  fumador = true;
+
+  esFumador(){
+    return this.fumador ? "Fuma como un putisimo carretero" : "Fuma menos que el puma";
+
+  }
 }
